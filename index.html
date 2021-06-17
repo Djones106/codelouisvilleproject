@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="font-mfizz" href="font-mfizz-2.4.1/">
   <title>Danielle's Portfolio</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <a href="#">About </a><br>
         <a href="#">What I know</a><br>
         <a href="#">Projects</a><br>
-        <a href="#">Contact Me</a><br>
+        <a href="#">Contact Me</a>
       </ul>
       </nav>      
     </header>
@@ -25,27 +26,24 @@
     <section>
     <h2>About</h2>
     <img src="sonic-hedgehog.jpg">
-          <p>Web development started in high school. Always interesed in making thing functional and easy to use. Interested in working in webdesign.</p>
+          <p>This is my portolio to show off the projects I am working on.</p>
   </section>
   
     <!-- 3. What I Know -->
     <section class="icons"> 
       <h2>What I know </h2>
       <ul>
-      <li><a href="">Project I</a>
-      </li>
-      <li>Project II
-      </li>
-      <li>Project III
-      </li>
-      <p>Hedgehogs are very good at detecting motion around them, even when they are rolled into a ball or cannot see.
-      </p>
-    </ul>
-    </section>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>GitHub</li>
+     </ul> 
+     <p>Forever Learning</p>
+     </section>
     <!-- 4. Project Content -->
     <section class="projects"> 
       <h2>Projects</h2>
-      <p>Some projects I worked on</p>
+      <p>The projects I am working on.</p>
       <ul>
       <li><a href="">Project I</a>
       </li>
@@ -56,15 +54,31 @@
     </ul>
     </section>
 
-    <!-- 5. Contact Me -->
+    <!-- 5. Contact Me Form-->
     <secton class="contact">
     <h2>Contact Me</h2>
-     <p>Some people consider hedgehogs useful pets because they prey on many common garden pests. While on the hunt, they rely upon their senses of hearing and smell because their eyesight is weak. Hedgehogs may learn certain behaviors through positive reinforcement or conditioning but only at a very basic level.
-    </p> 
-      <p>We strongly that hedgehog personality is shaped and molded through owner interaction. Proper handling and consideration of the hedgehog's needs is critical to successful socialization and bonding as well as enjoyable pet ownership for both you and your pet.
-      </p>
+     <form action="Contact Me">
+      <ul>
+        <li>
+        <label for="Name">Name:</label>
+        <input type="text" id="name"  name="user_name">
+        </li>
+        <li>
+          <label for="mail">E-mail:</label>
+          <input type="email" name="mail" id="user_name">
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
+        </li>
+        <li class="button">
+          <button type="submit">Send your message</button>
+        </li>
+      </ul>
+     </form>
     </secton>
   </main>
+
     <!-- 6. Footer Content -->
     <footer>
       <p>This site is bulit to show what I have created.</p>
